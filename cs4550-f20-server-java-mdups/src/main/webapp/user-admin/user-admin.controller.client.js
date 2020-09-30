@@ -62,7 +62,7 @@ function renderUsers(users) {
     $clone.removeClass("wbdv-hidden")
 
     const $username = $clone.find(".wbdv-username")
-    $username.html(username)
+    $username.html(username) 
     const $password = $clone.find(".wbdv-password")
     $password.html(password)
     const $firstName = $clone.find(".wbdv-first-name")
